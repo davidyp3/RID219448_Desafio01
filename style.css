@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+#cabecalho-principal {
+    background-color: #303030;
+    padding: 150px 0 120px;
+
+}
+
+#titulo-principal {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: 2.5px;
+    margin-left: 62px;
+    margin-bottom: 28px;
+}
+
+#descricao-principal {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 62px;
+
+}
+
+#dados-projetos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F9F9;
+    padding: 70px;
+}
+
+.dado h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.dado p {
+    font-size: 20px;
+}
+
+#sobre-nos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 50px 50px;
+}
+
+.imagem-sobre {
+    width: 510px;
+    height: 605px;
+}
+
+.texto-sobre h2 {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.texto-sobre p {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#contato {
+    background-color: #303030;
+    text-align: center;
+    padding: 50px;
+}
+
+#contato h2 {
+    color: #FFFFFF;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.input-form {
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 50px;
+    padding-left: 24px;
+}
+
+.input-form::placeholder {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    border: none;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #915710;
+    transform: translateY(-7px);
+    transition: 0.2s;
+    box-shadow: 0 15px 26px #311d05;
+}
